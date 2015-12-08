@@ -17,6 +17,12 @@ public class rock : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        rend.material.color = Color.blue;
+        //If the front of the boat hit us Cube 3
+        if (col.collider.name == "Cube (3)")
+        {
+            print("Hit by the front of the boat");
+            rend.material.color = Color.blue;
+        }
+        
     }
 }

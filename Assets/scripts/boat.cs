@@ -29,18 +29,19 @@ public class boat : MonoBehaviour {
 
 	}
 
+    
     void OnCollisionEnter(Collision col)
     {
         //Not valid yet because we need to change collision
         //Hits a rock 
-        if (col.collider.name == "Rock1")
+        if (col.collider.name == "Group003")
         {
-            rend.material.color = Color.yellow;
+            //rend.material.color = Color.yellow;
         }
         else if (col.collider.name == "Rock2")
         {
-            rend.material.color = Color.red;
+            //rend.material.color = Color.red;
         }
-        
     }
+    
 }
