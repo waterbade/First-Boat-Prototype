@@ -17,7 +17,7 @@ public class rock : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        //If the front of the boat hit us Cube 3
+        //If the front of the boat (Cube 3) hits a rock
         if (col.collider.name == "Cube (3)")
         {
             print("Hit by the front of the boat");

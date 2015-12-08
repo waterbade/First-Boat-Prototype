@@ -10,7 +10,6 @@ public class switchMode : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        print("Start");
 	}
 	
 	// Update is called once per frame
