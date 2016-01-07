@@ -36,6 +36,10 @@ public class boat : MonoBehaviour {
         {
             //Do something
         }
+        else if (col.collider.name == "toad1")
+        {
+            print("Boat hits monster");
+        }
     }
     
 }

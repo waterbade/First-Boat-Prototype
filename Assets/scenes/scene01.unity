@@ -1088,6 +1088,26 @@ Prefab:
       propertyPath: m_Name
       value: monster
       objectReference: {fileID: 0}
+    - target: {fileID: 100088, guid: 8d57ae22151705b4887f343dc0bb53d6, type: 2}
+      propertyPath: m_Name
+      value: toad1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 8d57ae22151705b4887f343dc0bb53d6, type: 2}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: bc4df6d08cdbe6e49a2c756727176cd6, type: 3}
+    - target: {fileID: 11100000, guid: 8d57ae22151705b4887f343dc0bb53d6, type: 2}
+      propertyPath: m_AnimatePhysics
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 8d57ae22151705b4887f343dc0bb53d6, type: 2}
+      propertyPath: m_PlayAutomatically
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 8d57ae22151705b4887f343dc0bb53d6, type: 2}
+      propertyPath: m_CullingType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d57ae22151705b4887f343dc0bb53d6, type: 2}
   m_IsPrefabParent: 0
@@ -1230,8 +1250,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917268503}
-  m_LocalRotation: {x: -.0179171991, y: .095238328, z: .0017144786, w: .99529177}
-  m_LocalPosition: {x: -20.2922859, y: -.651829243, z: 75.6267548}
+  m_LocalRotation: {x: -.095851928, y: .00388052221, z: .000373697956, w: .995388031}
+  m_LocalPosition: {x: -.124494314, y: -7.06423187, z: 19.8471947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
